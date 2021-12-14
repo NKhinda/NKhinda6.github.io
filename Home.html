@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<title>Virtual Reality and Augmented Reality</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("gamewallpaper.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">Differences</a>
+    </div>
+	   <div class="w3-col s3">
+      <a href="#equipment" class="w3-button w3-block w3-black">EQUIPMENT</a>
+      </div>
+	  <div class="w3-col s3">
+      <a href="#history" class="w3-button w3-block w3-black">History</a>
+      </div>
+	  <div class="w3-col s3">
+      <a href="#links" class="w3-button w3-block w3-black">LINKS</a>
+      </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Virtual Reality and Augmented Reality</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">What is Virtual Reality? What is Augmented Reality?</span></h5>
+    <p>Virutal reality is a gaming technology used to play videogames. Instead of playing in front of a screen, you are inside a 3d world. The screen of virtual reality is one the biggest differences from playing normal videogames.</p>
+    <p>Augmented reality is a big trend of technology. In Augmented reality, you get to see a realistic environment of the outside world.  </p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+    </div>
+     <img src="vrandar.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Differences</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Virtual Reality');" id="myLink">
+        <div class="w3-col s6 tablink">Virtual Reality</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Augmented Reality');">
+        <div class="w3-col s6 tablink">Augmented Reality</div>
+      </a>
+    </div>
+
+    <div id="Virtual Reality" class="w3-container menu w3-padding-48 w3-card">
+      <h5>View</h5>
+      <p class="w3-text-grey">Animated view</p><br>
+    
+      <h5>Camera</h5>
+      <p class="w3-text-grey">Computer sensors and math are used for the camera. The camera is also positioned based on how graphics "react".</p><br>
+    
+      <h5>Access</h5>
+      <p class="w3-text-grey">Gaming Systems</p><br>
+    
+      <h5>Sound</h5>
+      <p class="w3-text-grey">Computer generated sounds.</p><br>
+    
+      <h5>Presence</h5>
+      <p class="w3-text-grey">Using a VR headset, everything is blocked except for the inside of the game.</p>
+    </div>
+
+    <div id="Augmented Reality" class="w3-container menu w3-padding-48 w3-card">
+      <h5>View</h5>
+      <p class="w3-text-grey">Realistic</p><br>
+    
+      <h5>Camera</h5>
+      <p class="w3-text-grey">Sensors and algorithms are used to position the camera.</p><br>
+    
+      <h5>Access</h5>
+      <p class="w3-text-grey">Gaming systems, headset devices, and smartphones.</p><br>
+    
+      <h5>Sounds</h5>
+      <p class="w3-text-grey">Sounds that are generated from the game into headphones.</p><br>
+    
+      <h5>Presence</h5>
+      <p class="w3-text-grey">Games could be viewed with or without a headset to block the surroundings outside of the game.</p>
+    </div>  
+ <img src="vr.jpg" width="300">
+  <img src="ar.jpg" width="300">
+  </div>
+</div>
+
+<!-- Equipment Container -->
+<div class="w3-container" id="equipment">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">What is the Equipment used in Virtual Reality and Augmented Reality?</span></h5>
+    <p>The main equipment used in Virtual Reality is a headset and a pair of goggles. The goggles go over your eyes and act like a mask over your eyes. The goggles will show you all of the content in Vr. In order to run the games and apps in the system, your headset needs to be connected to a computer. </p>
+    <p>The main equipment required in Augmented Reality is a smartphone, ipad, or tablet. However, there are certain things you need on your device in order for Ar to work. On your device you need a processor, a high graphing process unit, and sensors. For the software part, you need environment understanding, motion tracking, and light estimation. </p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+    </div>
+     <img src="vrequip.jpg" width="342">
+	 <img src="arequip.jpg" width="350">
+  </div>
+</div>
+
+<!-- History Container -->
+<div class="w3-container" id="history">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">The History of Virtual Reality and Augmented Reality</span></h5>
+    <p>The technologies of Virtual Reality were first developed in the 1800's. After discovering the equipment for virtual reality, Jaron Lanier decided to call it "virtual reality". Before virtual reality began, "technologists" had been developing different types of environments in a simulation.</p>
+    <p>In 1968, Ivan Sutherland invented a computer based environment. The display was "window-like". The first Augmented Reality device was invented in 1922. The fist system did have a few issues. The speed of the 3D graphics" were not the best. Throughout the years Ar has became a very popular system and the technology is getting more and more advanced. </p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+    </div>
+  </div>
+</div>
+
+<!-- Links Container -->
+<div class="w3-container" id="links">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Links</span></h5>
+ <h6>Here are some links based on how Augmented Reality and Virtual Reality works</h6>
+ <p> <a href="https://www.youtube.com/watch?v=H7ZHemE2nRs" target="_blank"> How Augmented Reality Works</p>
+<p><a href="https://www.youtube.com/watch?v=i4Zt3JZejbg" target="_blank"> How Virtual Reality Works</p> </p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+    </div>
+  </div>
+</div>
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+ <p>Nisha Khinda
+ December 14, 2021
+ Period 1
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
